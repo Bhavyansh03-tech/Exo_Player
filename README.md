@@ -40,15 +40,15 @@ This repository demonstrates how to use ExoPlayer in a Jetpack Compose applicati
     androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "media3Exoplayer" }
     androidx-media3-exoplayer-hls = { module = "androidx.media3:media3-exoplayer-hls", version.ref = "media3Exoplayer" }
     androidx-media3-ui = { module = "androidx.media3:media3-ui", version.ref = "media3Exoplayer" }
-  ```
+   ```
 
 2. **Add Internet Permission (for Online Player)**
 
-In your `AndroidManifest.xml`, add the following permission:
+   In your `AndroidManifest.xml`, add the following permission:
 
-```xml
-<uses-permission android:name="android.permission.INTERNET"/>
-```
+   ```xml
+   <uses-permission android:name="android.permission.INTERNET"/>
+   ```
 
 ## Composables
 
